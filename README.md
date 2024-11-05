@@ -14,22 +14,28 @@ A simple and responsive Recipe Finder web application that allows users to searc
 - [Code Overview](#code-overview)
 - [License](#license)
 
+## File Structure
+recipe-finder/ 
+├── weather/ # Folder containing HTML, CSS, and JS for weather app 
+├── index.html # Main HTML file for Recipe Finder 
+├── style.css # CSS styling 
+├── script.js # JavaScript logic 
+└── README.md # Project documentation
+
 ## Features
 - **Search Recipes:** Type in a keyword and get a list of matching recipes with images, category, and region.
 - **View Recipe Details:** Click on "Read More" for a popup displaying ingredients, instructions, and a link to a video.
 - **Responsive Design:** Adapts to various screen sizes for a user-friendly experience on both desktop and mobile.
 
-## Demo
-To see a live demo of the Recipe Finder App, click [here](#).
-
 ## Technologies Used
 - HTML, CSS, JavaScript
 - [TheMealDB API](https://www.themealdb.com/) for fetching recipe data
 
-## Usage
-1. Enter a recipe keyword (e.g., "chicken") in the search bar.
-2. Click the "Search" button to display relevant recipes.
-3. Click "Read More" on any recipe card to view detailed information.
 
-## File Structure
-recipe-finder/ ├── weather/ # Folder containing HTML, CSS, and JS for weather app ├── index.html # Main HTML file for Recipe Finder ├── style.css # CSS styling ├── script.js # JavaScript logic └── README.md # Project documentation
+## Usage
+1. Type a recipe keyword (e.g., "pasta") into the search bar.
+2. Click on the "Search" button to view matching recipes.
+3. Select "Read More" on any recipe to view detailed information in a popup.
+
+## License
+This project is open-source and available under the [MIT License](LICENSE).
